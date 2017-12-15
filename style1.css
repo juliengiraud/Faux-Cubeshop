@@ -1,0 +1,27 @@
+body
+{
+    background-color : #e5e5e5;
+}
+
+header
+{
+    background-color : blue;
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    width : 100%;
+    display : inline;
+}
+
+header li
+{
+	display : inline;
+	padding-left : 1em;
+	padding-right : 1em;
+}
+
+header li:nth-child(2)
+{
+	border-left : 1px black solid;
+	border-right : 1px black solid;
+}
