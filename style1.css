@@ -1,16 +1,19 @@
 body
 {
-    background: linear-gradient(135deg, red, red 30%, blue);
+    background: linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
 }
 
 header
 {
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);    position : absolute;
+  background-color: rgba(10, 10, 10, 0.4);
+    position : absolute;
     text-align : center;
     top : 0px;
     left : 0px;
     width : 100%;
     display : inline;
+    padding-top: 1em;
+    padding-bottom : 1em;
 }
 
 /*partie 1*/
