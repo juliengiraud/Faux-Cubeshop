@@ -3,6 +3,7 @@ body
     background: linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
 }
 
+/*barre du haut*/
 header
 {
     background-color: rgba(10, 10, 10, 0.4);
@@ -16,8 +17,7 @@ header
     padding-bottom : 1em;
 }
 
-/*partie 1*/
-
+/*Onglets et menu deroulant*/
 #menu li
 {
 	padding-left : 0em;
@@ -25,7 +25,6 @@ header
     display:inline-block;
 
 }
-
 
 #menu ul
 {
@@ -39,6 +38,7 @@ header
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
 }
+
 #menu li:hover ul
 {
     max-height:15em;
@@ -53,12 +53,17 @@ header
 #sous-menu
 {
     margin-top: 1em;
-    display: inherit;
+    max-width: 10em;
 }
 
 #sous-menu li
 {
-    display : block;
+    background-color : rgba(10, 10, 10, 0.4);
+    display: block;
+}
+
+#sous-menu a
+{
 }
 
 #menu a
@@ -72,92 +77,30 @@ header
     margin:0;
     padding-left: 1em;
     padding-right: 1em;
-    /*
-
-
-
-
-    */
 }
 
-/*partie 1 - Alec
-#menu, #menu ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
-}
-#menu li{
-display:inline-block;
-position:relative;
-border-radius:0;
-}
-#menu ul li{
-display:inherit;
-border-radius:0;
-}
-#menu ul li:hover{
-border-radius:0;
-}
-#menu ul li:last-child{
-border-radius:0;
-}
-#menu ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
-}
-#menu li:hover ul{
-max-height:15em;
-}
-*/
-
-/*Partie 2*/
-
-#menu a
+#menu ul a
 {
-
-}
-#menu ul a{
-padding:8px 0;
-}
-#menu li:hover li a{
-color:#fff;
-text-transform:inherit;
-}
-#menu li:hover a, #menu li li:hover a{
-color:#000;
+    padding : 8px 0;
 }
 
-/*Partie 2 - Alec*/
-/* les a href */
-/*
-#menu a{
-text-decoration:none;
-display:block;
-margin:0;
-padding:7px 38px;
-color:#FAFAD2;
-font-family:arial;
+#menu li:hover li a
+{
+    color:#fff;
+    text-transform:inherit;
 }
-#menu ul a{
-padding:8px 0;
-}
-#menu li:hover li a{
-color:#fff;
-text-transform:inherit;
-}
-#menu li:hover a, #menu li li:hover a{
-color:#000;
-}
-*/
 
+#menu li:hover a
+{
+    color:#000;
+    background-color : grey;
+}
+
+#menu li li:hover a
+{
+    color:#000;
+    background-color : grey;
+}
 
 
 
