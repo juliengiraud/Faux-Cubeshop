@@ -1,12 +1,12 @@
 body
 {
-    background-color : yellow;
+    background: linear-gradient(135deg, red, red 30%, blue);
 }
 
 header
 {
-    background-color : purple;
-    position : absolute;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);    position : absolute;
+    text-align : center;
     top : 0px;
     left : 0px;
     width : 100%;
@@ -79,36 +79,40 @@ max-height:15em;
 }
 */
 
+/*Partie 2*/
+
+#menu
+{
+   
+}
 
 
 
-
-/*
+/*Partie 2 - Alec
 #menu li:first-child{
 background-color: #65537A;
 background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
 background-image:linear-gradient(to bottom, #65537A 0%, black 100%);
 }
+
 #menu li:nth-child(2){
 background-color: #729EBF;
 background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
 background-image:linear-gradient(to bottom, #729EBF 0%, black 100%);
 }
+
 #menu li:nth-child(3){
 background-color: #F6AD1A;
 background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
 background-image:linear-gradient(to bottom, #F6AD1A 0%, black 100%);
 }
+
 #menu li:nth-child(4){
 background-color: #CFFF6A;
 background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
 background-image:linear-gradient(to bottom, #CFFF6A 0%, black 100%);
 }
-#menu li:nth-child(5){
-background-color:#FFDEAD;
-background-image:-webkit-linear-gradient(top, #FFDEAD  0%, black 100%);
-background-image:linear-gradient(to bottom, #FFDEAD 0%, black 100%);
-}
+
 #menu li:last-child{
 background-color: #48D1CC;
 background-image:-webkit-linear-gradient(top,#48D1CC 0%, #66CDAA 100%);
