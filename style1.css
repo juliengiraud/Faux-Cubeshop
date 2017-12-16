@@ -1,10 +1,18 @@
 body
+/*
+  fond degrade
+*/
 {
     background: linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
 }
 
-/*barre du haut*/
 header
+/*
+  barre fixe tout en haut
+  couleur de fond : noir transparent
+  sur une seule ligne centree
+  sur toute la largeur
+*/
 {
     background-color: rgba(10, 10, 10, 0.4);
     position : fixed;
@@ -13,75 +21,91 @@ header
     left: 0px;
     width : 100%;
     display : inline;
-    padding-top: 1em;
-    padding-bottom : 1em;
+    white-space: nowrap;
 }
 
-/*Onglets et menu deroulant*/
 #menu li
+/*
+  affiche le nom des onglets sur une seule ligne
+*/
 {
-	padding-left : 0em;
-	padding-right : 0em;
     display:inline-block;
+}
 
+#menu a
+/*
+  mise en forme du texte des noms d'onglets
+  gestion de la largeur entre les onglets
+  gestion des ecarts entre les noms d'onglets
+*/
+{
+    text-decoration : none;
+    color : white;
+    font-size : 1em;
+    display : block;
+    font-family:arial;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#menu ul a
+/*
+  gere l'espace entre les lignes du sous-menu
+  gere la taille des cellules du sous-menu
+*/
+{
+    padding : 0.6em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+#categories
+/*
+  donne la meme largeur a l'onglet et son sous-menu
+*/
+{
+    width : 6em;
+    text-align : center;
 }
 
 #menu ul
+/*
+  garde les onglets fixes au meme niveau
+  rend nulle la taille du sous-menu
+  aligne le sous-menu avec son onglet
+  gere la transition du sous-menu
+*/
 {
     position:absolute;
-    z-index: 1000;
     max-height:0;
-    left: 0;
-    right: 0;
     overflow:hidden;
     -moz-transition: .8s all .3s;
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
+    left : 48%;
+    transform : translate(-50%)
 }
 
 #menu li:hover ul
+/*
+  permet au sous-menu de s'afficher de nouveau
+*/
 {
     max-height:15em;
 }
 
-#menu
-{
-    display : inline;
-    white-space: nowrap;
-}
-
 #sous-menu
+/*
+  place le sous-menu juste en dessous de la barre d'onglets
+*/
 {
     margin-top: 1em;
-    max-width: 10em;
 }
 
 #sous-menu li
 {
     background-color : rgba(10, 10, 10, 0.4);
     display: block;
-}
-
-#sous-menu a
-{
-}
-
-#menu a
-{
-    text-decoration : none;
-    color : white;
-    font-size : 1em;
-    display : block; /*?*/
-    font-family:arial;
-    color:#FAFAD2;
-    margin:0;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-#menu ul a
-{
-    padding : 8px 0;
 }
 
 #menu li:hover li a
@@ -149,12 +173,6 @@ background:ThreedShadow;
 background:#008080;
 }
 */
-
-
-
-
-
-
 
 
 
