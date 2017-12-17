@@ -6,6 +6,10 @@ body
     background: linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
 }
 
+
+/*
+  Debut de la barre d'onglets
+*/
 header
 /*
   barre fixe tout en haut
@@ -40,7 +44,7 @@ header
 */
 {
     text-decoration : none;
-    color : white;
+    color : rgb(220, 220, 220);
     font-size : 1em;
     display : block;
     font-family:arial;
@@ -103,77 +107,25 @@ header
 }
 
 #sous-menu li
+/*
+  donne au sous-menu la meme couleur de fond que la barre d'onglets
+  met les elements du sous-menu les uns en dessous des autres
+*/
 {
     background-color : rgba(10, 10, 10, 0.4);
     display: block;
 }
 
-#menu li:hover li a
-{
-    color:#fff;
-    text-transform:inherit;
-}
-
-#menu li:hover a
-{
-    color:#000;
-    background-color : grey;
-}
-
-#menu li li:hover a
-{
-    color:#000;
-    background-color : grey;
-}
-
-
-
-
-/* background des liens sous menus */
-
+#menu a:hover
 /*
-#menu li:first-child li{
-background:#2A2333;
-}
-#menu li:nth-child(2) li{
-background:#333A40;
-}
-#menu li:nth-child(3) li{
-background:#9F391A;
-}
-#menu li:nth-child(4) li{
-background:#677F35;
-}
-#menu li:nth-child(5) li{
-background:black;
-}
+  rend la couleur de l'element selectionne plus blanc que par defaut
 */
-
-
-
-/* background des liens menus et sous menus au survol */
-
+{
+    color: rgb(255, 255, 255);
+}
 /*
-#menu li:first-child:hover, #menu li:first-child li:hover{
-background:#65537A;
-}
-#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
-background:#729EBF;
-}
-#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
-background:#F6AD1A;
-}
-#menu li:nth-child(4):hover, #menu li:nth-child(4) li:hover{
-background:#CFFF6A;
-}
-#menu li:nth-child(5):hover, #menu li:nth-child(5) li:hover{
-background:ThreedShadow;
-}
-#menu li:last-child:hover, #menu li:last-child li:hover{
-background:#008080;
-}
+  Fin de la barre d'onglets
 */
-
 
 
 footer 
