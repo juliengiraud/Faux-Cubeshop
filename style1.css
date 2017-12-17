@@ -1,9 +1,14 @@
 body
 /*
-  fond degrade
+  fond degrade meme avec le scroll
+  affiche le scroll horizontal en cas de redimentionnement
+  enleve la marge autour de l'ecran
 */
 {
-    background : linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
+    background-image : linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
+    background-attachment: fixed;
+    min-width: 700px;
+    margin : 0;
 }
 
 
@@ -16,16 +21,25 @@ header
   couleur de fond : noir transparent
   sur une seule ligne centree
   sur toute la largeur
+  supporte le scroll horizontal
 */
 {
     background-color : rgba(10, 10, 10, 0.4);
-    position : fixed;
+    position : absolute;
     text-align : center;
-    top : 0px;
-    left : 0px;
+    top : 0;
+    min-width : 700px;
     width : 100%;
     display : inline;
     white-space : nowrap;
+}
+
+#menu
+/*
+  laisse un espace a droite afin d'equilibrer avec l'espace de gauche sur les petites resolutions
+*/
+{
+    padding-right : 2em;
 }
 
 #menu li
@@ -95,7 +109,7 @@ header
   permet au sous-menu de s'afficher de nouveau
 */
 {
-    max-height : 15em;
+    max-height : 5em;
 }
 
 #sous-menu
@@ -131,7 +145,7 @@ header
 /*
   Debut du mileu de page -------------------------------------------------------------------------------------
 */
-section
+article
 /*
   place le milieu de page en dessous de la barre d'onglets
   lui donne ses caracteristiques principales
@@ -155,14 +169,66 @@ section
   Debut du pied de page -------------------------------------------------------------------------------------
 */
 footer
+/*
+  centre les elements principaux
+  place le pied de page en fin de page
+  lui donne toute la largeur de l'ecran
+  l'ecarte du milieu de page
+*/
 {
-	  margin-top : 4em;
+    text-align : center;
+    bottom : 0%;
+    min-width : 700px;
+    width : 100%;
+    margin-top : 4em;
 }
 
-footer ul li 
+footer p:first-child
+{
+    margin : 0px;
+}
+
+footer p:first-child a
+{
+    background-color : rgba(10, 10, 10, 0.3);
+    padding : 0em;
+    margin : 0;
+}
+
+footer section
+/*
+  donne la meme couleur de fond au pied de page que la barre d'onglets
+*/
+{
+    background-color : rgba(10, 10, 10, 0.4);
+    margin : 0;
+}
+
+footer section div
+{
+    padding-top : 1em;
+    margin : 0;
+}
+
+footer p:nth-child(2)
+{
+    padding : 1em;
+    margin : 0;
+}
+
+footer section nav
+{
+    display : inline-block;
+}
+
+footer section li
 {
 	  display : block;
-	  padding-right : 1em;
+}
+footer section a
+{
+    text-decoration : none;
+    color : white;
 }
 /*
   Fin du pied de page
