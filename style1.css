@@ -3,12 +3,12 @@ body
   fond degrade
 */
 {
-    background: linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
+    background : linear-gradient(to right, rgb(60, 210, 170), rgb(50, 50, 100));
 }
 
 
 /*
-  Debut de la barre d'onglets
+  Debut de la barre d'onglets ---------------------------------------------------------------------------
 */
 header
 /*
@@ -18,14 +18,14 @@ header
   sur toute la largeur
 */
 {
-    background-color: rgba(10, 10, 10, 0.4);
+    background-color : rgba(10, 10, 10, 0.4);
     position : fixed;
     text-align : center;
     top : 0px;
-    left: 0px;
+    left : 0px;
     width : 100%;
     display : inline;
-    white-space: nowrap;
+    white-space : nowrap;
 }
 
 #menu li
@@ -33,7 +33,7 @@ header
   affiche le nom des onglets sur une seule ligne
 */
 {
-    display:inline-block;
+    display : inline-block;
 }
 
 #menu a
@@ -47,9 +47,9 @@ header
     color : rgb(220, 220, 220);
     font-size : 1em;
     display : block;
-    font-family:arial;
-    margin-left: 1em;
-    margin-right: 1em;
+    font-family : arial;
+    margin-left : 1em;
+    margin-right : 1em;
 }
 
 #menu ul a
@@ -59,8 +59,8 @@ header
 */
 {
     padding : 0.6em;
-    margin-left: 0em;
-    margin-right: 0em;
+    margin-left : 0em;
+    margin-right : 0em;
 }
 
 #categories
@@ -80,12 +80,12 @@ header
   gere la transition du sous-menu
 */
 {
-    position:absolute;
-    max-height:0;
-    overflow:hidden;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
+    position : absolute;
+    max-height : 0;
+    overflow : hidden;
+    -moz-transition : .8s all .3s;
+    -webkit-transition : .8s all .3s;
+    transition : .8s all .3s;
     left : 48%;
     transform : translate(-50%)
 }
@@ -95,7 +95,7 @@ header
   permet au sous-menu de s'afficher de nouveau
 */
 {
-    max-height:15em;
+    max-height : 15em;
 }
 
 #sous-menu
@@ -103,7 +103,7 @@ header
   place le sous-menu juste en dessous de la barre d'onglets
 */
 {
-    margin-top: 1em;
+    margin-top : 1em;
 }
 
 #sous-menu li
@@ -113,7 +113,7 @@ header
 */
 {
     background-color : rgba(10, 10, 10, 0.4);
-    display: block;
+    display : block;
 }
 
 #menu a:hover
@@ -121,20 +121,49 @@ header
   rend la couleur de l'element selectionne plus blanc que par defaut
 */
 {
-    color: rgb(255, 255, 255);
+    color : rgb(255, 255, 255);
 }
 /*
   Fin de la barre d'onglets
 */
 
 
-footer 
+/*
+  Debut du mileu de page -------------------------------------------------------------------------------------
+*/
+section
+/*
+  place le milieu de page en dessous de la barre d'onglets
+  lui donne ses caracteristiques principales
+*/
 {
-	margin-top: 4em;
+    background-color : rgba(255, 255, 255, 0.3);
+    margin-left : 8%;
+    margin-right : 8%;
+    padding-top : 1em;
+    padding-bottom : 1em; 
+    padding-left : 2em;
+    padding-right : 2em;
+    margin-top : 125px;
 }
-footer ul li 
+/*
+  Fin du mileu de page
+*/
+
+
+/*
+  Debut du pied de page -------------------------------------------------------------------------------------
+*/
+footer
 {
-	display : block;
-	padding-right : 1em;
+	  margin-top : 4em;
 }
 
+footer ul li 
+{
+	  display : block;
+	  padding-right : 1em;
+}
+/*
+  Fin du pied de page
+*/
