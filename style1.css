@@ -199,58 +199,64 @@ footer
   place le pied de page en fin de page
   lui donne toute la largeur de l'ecran
   l'ecarte du milieu de page
+  lui donne sa couleur de fond
 */
 {
     text-align: center;
     bottom: 0%;
-    min-width: 700px;
+    min-width: 730px;
     width: 100%;
     margin-top: 4em;
+    background-color: rgba(10, 10, 10, 0.4);
 }
 
-footer p:first-child
-{
-    margin: 0px;
-}
-
-footer p:first-child a
-{
-    background-color: rgba(10, 10, 10, 0.3);
-    padding: 0em;
-    margin: 0;
-}
-
-footer section
+footer #retour
 /*
-  donne la meme couleur de fond au pied de page que la barre d'onglets
+  lui permet de prendre toute la largeur
+  change la couleur de fond sur toute la zone
+  met le texte en blanc sans ajouts
 */
 {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: rgba(10, 10, 10, 0.4);
-    margin: 0;
 }
 
 footer section div
+/*
+  met le texte en blanc sans ajouts
+  pousse legerement le haut
+*/
 {
     padding-top: 1em;
-    margin: 0;
-}
-
-footer p:nth-child(2)
-{
-    padding: 1em;
-    margin: 0;
+    color: white;
 }
 
 footer section nav
+/*
+  affiche les menus en ligne
+*/
 {
     display: inline-block;
 }
 
 footer section li
+/*
+  empeche l'affichage des elements des menus en liste
+  affiche ces elements les uns en dessous des autres
+*/
 {
 	  display: block;
 }
+
 footer section a
+/*
+  met le texte en blanc sans ajouts
+  pousse legerement le haut
+*/
 {
     text-decoration: none;
     color: white;
