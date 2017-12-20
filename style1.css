@@ -26,7 +26,7 @@ header
 */
 {
     background-color: rgba(10, 10, 10, 0.4);
-    bacjground-attachment: absolute;
+    background-attachment: absolute;
     position: absolute;
     text-align: center;
     top: 0;
@@ -79,6 +79,15 @@ header
     font-family: arial;
     margin-left: 1em;
     margin-right: 0em;
+}
+
+#menu li a
+/*
+
+*/
+{
+    font-family: Times;
+
 }
 
 #menu li button
@@ -210,7 +219,7 @@ footer
     background-color: rgba(10, 10, 10, 0.4);
 }
 
-footer #retour
+footer a:first-child
 /*
   lui permet de prendre toute la largeur
   change la couleur de fond sur toute la zone
@@ -225,41 +234,19 @@ footer #retour
     background-color: rgba(10, 10, 10, 0.4);
 }
 
-footer section div
+footer a:nth-child(2)
 /*
+  lui permet de prendre toute la largeur
+  change la couleur de fond sur toute la zone
   met le texte en blanc sans ajouts
-  pousse legerement le haut
 */
 {
-    padding-top: 1em;
-    color: white;
-}
-
-footer section nav
-/*
-  affiche les menus en ligne
-*/
-{
-    display: inline-block;
-}
-
-footer section li
-/*
-  empeche l'affichage des elements des menus en liste
-  affiche ces elements les uns en dessous des autres
-*/
-{
-	  display: block;
-}
-
-footer section a
-/*
-  met le texte en blanc sans ajouts
-  pousse legerement le haut
-*/
-{
+    display: block;
     text-decoration: none;
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(10, 10, 10, 0.2);
 }
 /*
   Fin du pied de page
