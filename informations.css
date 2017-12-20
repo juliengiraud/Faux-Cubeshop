@@ -206,11 +206,29 @@ article p
     font-size: 25px;
 }
 
+article nav p
+{
+    text-align: center;
+}
+
 #chut
 {
 
     font-size: 15px;
     color: white;
+}
+
+article li
+{
+    display: inline-block;
+    max-height: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+article ul
+{
+    display: ;
 }
 /*
   Fin du mileu de page
