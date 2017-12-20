@@ -37,7 +37,7 @@ header
     height: 3.3em;
 }
 
-#menu
+.menu
 /*
   laisse un espace a droite afin d'equilibrer avec l'espace de gauche sur les petites resolutions
 */
@@ -45,7 +45,7 @@ header
     padding-right: 2em;
 }
 
-#menu a
+.menu a
 /*
   mise en forme du texte des noms d'onglets
   gestion de la largeur entre les onglets
@@ -61,7 +61,7 @@ header
     margin-right: 1em;
 }
 
-#menu li
+.menu li
 /*
   affiche le nom des onglets sur une seule ligne
 */
@@ -69,28 +69,42 @@ header
     display: inline-block;
 }
 
-#menu li input
+.menu li input
 /*
  mise en forme de l'onglet de recherche
 */ 
 {
-    width: 8em;
-    text-align: center;
-    font-family: arial;
+    width: 10em;
+    text-align: left;
+    font-family: Times;
     margin-left: 1em;
     margin-right: 0em;
+    border-radius: 0.5em;
+    border: none;
+    border-width: 1px;
 }
 
-#menu li a
+button
 /*
+mise en forme du bouton
+*/
+{
+    background-color: transparent;
+    font-size:14px;
+    border:none;
+    color:white;
 
+}
+.menu li a
+/*
+ mise en forme de l'écriture du menu 
 */
 {
     font-family: Times;
 
 }
 
-#menu li button
+.menu li button
 /*
  mise en forme du bouton  de l'onglet de recherche
 */
@@ -100,7 +114,7 @@ header
     margin-right: 1em;
 }
 
-#menu ul a
+.menu ul a
 /*
   gere l'espace entre les lignes du sous-menu
   gere la taille des cellules du sous-menu
@@ -120,7 +134,7 @@ header
     text-align: center;
 }
 
-#menu ul
+.menu ul
 /*
   garde les onglets fixes au meme niveau
   rend nulle la taille du sous-menu
@@ -138,7 +152,7 @@ header
     transform: translate(-50%)
 }
 
-#menu li:hover ul
+.menu li:hover ul
 /*
   permet au sous-menu de s'afficher de nouveau
 */
@@ -146,7 +160,7 @@ header
     max-height: 5em;
 }
 
-#sous-menu
+.sous-menu
 /*
   place le sous-menu juste en dessous de la barre d'onglets
 */
@@ -154,7 +168,7 @@ header
     margin-top: 1.1em;
 }
 
-#sous-menu li
+.sous-menu li
 /*
   donne au sous-menu la meme couleur de fond que la barre d'onglets
   met les elements du sous-menu les uns en dessous des autres
@@ -164,7 +178,7 @@ header
     display: block;
 }
 
-#menu a:hover
+.menu a:hover
 /*
   rend la couleur de l'element selectionne plus blanc que par defaut
 */
