@@ -95,6 +95,7 @@ mise en forme du bouton
     color:white;
 
 }
+
 .menu li a
 /*
  mise en forme de l'écriture du menu 
@@ -125,7 +126,7 @@ mise en forme du bouton
     margin-right: 0em;
 }
 
-#categories
+.categories
 /*
   donne la meme largeur a l'onglet et son sous-menu
 */
