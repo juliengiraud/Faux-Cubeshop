@@ -222,7 +222,6 @@ article nav p
 
 #chut
 {
-
     font-size: 15px;
     color: white;
 }
@@ -235,9 +234,9 @@ article li
     margin-right: 1em;
 }
 
-article ul
+article img
 {
-    display: ;
+    height: 10em;
 }
 /*
   Fin du mileu de page
