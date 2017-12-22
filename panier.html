@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Le monde du Rubik's cube</title>
+        <link type="text/css" rel="stylesheet" href="panier.css"</link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li>
+                    <input placeholder="Recherche">
+                    <button><a href="recherche.html" style="margin: 0;"><i class="fa fa-search"></a></i></button>
+                </li>
+                <li>
+                    <a class="categories">Categories</a>
+                    <ul class="sous-menu">
+                        <li><a href="page6.html">Cubes classiques</a></li>
+                        <li><a href="page7.html">Cubes exotiques</a></li>
+                    </ul>
+                </li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="informations.html">Qui sommes-nous ?</a></li>
+            </ul>
+        </header>
+
+        <article>
+            <h1>Validation de commande</h1>
+				<table>
+					<form action="_static/formproc/debug">
+						<p>Civilité :
+							<label><input name="civil" type="radio" value="m"> M.</label>
+							<label><input name="civil" type="radio" value="mme"> Mme</label>
+						</p>
+					<p><label>Nom : <input></label></p>
+					<p><label>Prénom : <input></label></p>
+					<p><label>Adresse : <input></label></p>
+					<p><label>Code postal : <input></label></p>
+					<p><label>Tel : <input></label></p>
+					<p><label>Adresse mail : <input></label></p>
+						<p>Avez-vous une carte magasin ? 
+							<label><input name="carte" type="radio" value="m"> oui</label>
+							<label><input name="carte" type="radio" value="mme"> non</label>
+						</p>
+					<div><label><input type=checkbox>En cochant cette case, vous reconnaissez avoir lu et pris connaissance de la charte Arnaque.</label></div>
+					<button>Valider</button> <button><em>Annuler</em></button>	
+					</form>
+				</table>
+        </article>
+        
+        <footer>
+            <a href="#">Haut de la page</a>
+            <a href="informations.html">À propos</a>
+        	   
+               
+        </footer>
+
+    </body>
+
+</html>
