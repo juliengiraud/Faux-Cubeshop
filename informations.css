@@ -210,13 +210,9 @@ article a
     color: black;
 }
 
-article p
+article .title
 {
     font-size: 25px;
-}
-
-article nav p
-{
     text-align: center;
 }
 

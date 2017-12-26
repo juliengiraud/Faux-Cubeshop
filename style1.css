@@ -86,14 +86,22 @@ header
 
 button
 /*
-mise en forme du bouton
+  mise en forme du bouton de recherche
 */
 {
     background-color: transparent;
     font-size:14px;
     border:none;
-    color:white;
+    color: rgb(220, 220, 220);
 
+}
+
+button:hover
+/*
+  changement de couleur du bouton de recherche au survol souris
+*/
+{
+    color: rgb(255, 255, 255);
 }
 
 .menu li a
@@ -184,6 +192,7 @@ mise en forme du bouton
 #recherche
 {
     display: inline;
+    margin: 0;
 }
 /*
   Fin de la barre d'onglets
