@@ -26,7 +26,7 @@ header
 */
 {
     background-color: rgba(10, 10, 10, 0.4);
-    background-attachment: absolute;
+    background-attachment: fixed;
     position: absolute;
     text-align: center;
     top: 0;
@@ -179,6 +179,11 @@ mise en forme du bouton
 */
 {
     color: rgb(255, 255, 255);
+}
+
+#recherche
+{
+    display: inline;
 }
 /*
   Fin de la barre d'onglets
