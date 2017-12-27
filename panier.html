@@ -30,26 +30,41 @@
 
         <article>
             <h1>Validation de commande</h1>
-				<table>
 					<form action="resultat_formulaire/resultat.html">
-						<p>Civilité :
-							<label><input name="civil" type="radio" value="m"> M.</label>
-							<label><input name="civil" type="radio" value="mme"> Mme</label>
-						</p>
-					<p><label>Nom : <input></label></p>
-					<p><label>Prénom : <input></label></p>
-					<p><label>Adresse : <input></label></p>
-					<p><label>Code postal : <input></label></p>
-					<p><label>Tel : <input></label></p>
-					<p><label>Adresse mail : <input></label></p>
-						<p>Avez-vous une carte magasin ? 
-							<label><input name="carte" type="radio" value="m"> oui</label>
-							<label><input name="carte" type="radio" value="mme"> non</label>
-						</p>
-					<p><label><input type=checkbox>En cochant cette case, vous reconnaissez avoir lu et pris connaissance de la charte Arnaque.</label></p>
-					<button>Valider</button> <button><em>Annuler</em></button>	
+						<fieldset>
+                            <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+                            <label for="nom">Nom :</label>
+                            <input type="text" name="nom" id="nom" />
+
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" name="prenom" id="prenom" />
+
+                            <label for="adr">Adresse :</label>
+                            <input type="text" name="adr" id="adr" />
+
+                            <label for="cp">Code Postal :</label>
+                            <input name="cp" id="cp" />
+
+                            <label for="tel">Tel :</label>
+                            <input name="tel" id="tel" />
+ 
+                            <label for="email">E-mail :</label>
+                            <input type="email" name="email" id="email" />
+
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Déjà connu?</legend>
+
+                            <p> Avez-vous une carte magasin ? 
+                                <input name="carte" type="radio" value="accept"/> <label for="accept">Oui</label>
+                                <input name="carte" type="radio" value="refuse"/> <label for="accept">Non</label>
+                            </p>
+                        </fieldset>
+
+                        <p><label><input type=checkbox>En cochant cette case, vous reconnaissez avoir lu et pris connaissance de la charte CGV.De ce fait, vous acceptez par ailleurs que la fourniture du contenu numérique commandé commence immédiatement après l'envoi de notre mail de confirmation d'achat et renoncez donc à votre droit de rétractation.</label></p>
+                    <button>Valider</button> <button><em>Annuler</em></button>  
 					</form>
-				</table>
         </article>
         
         <footer>

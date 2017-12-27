@@ -203,9 +203,28 @@ article
     padding-right: 2em;
     margin-top: 8em;
 }
+
+form input
+/*
+  Mise en forme de la partie "Vos coordonnées"
+*/
+{
+  display:block;
+}
+
+fieldset p input
+/*
+  Mise en forme de la partie "Déjà connu?"
+*/
+{
+  display:inline;
+}
+
 /*
   Fin du mileu de page
 */
+
+fieldset button
 
 
 /*
@@ -260,4 +279,5 @@ footer a:nth-child(2)
 
 /*
   Fin du pied de page
+>>>>>>> a0cd59151eb6643d47b6b3989034a7810b6438ae
 */
