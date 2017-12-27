@@ -102,7 +102,6 @@ mise en forme du bouton
 */
 {
     font-family: Times;
-
 }
 
 .menu li button
@@ -216,9 +215,9 @@ article .title
     text-align: center;
 }
 
-#chut
+article #chut
 {
-    font-size: 15px;
+    font-size: 0.5em;
     color: white;
 }
 
@@ -233,6 +232,17 @@ article li
 article img
 {
     height: 10em;
+}
+
+article p
+{
+    font-size: 1em;
+}
+
+article nav p
+{
+    font-size: 20px;
+    text-align: center;
 }
 /*
   Fin du mileu de page

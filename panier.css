@@ -204,27 +204,27 @@ article
     margin-top: 8em;
 }
 
-form input
+article form input
 /*
   Mise en forme de la partie "Vos coordonnées"
 */
 {
-  display:block;
+  display: block;
 }
 
-fieldset p input
+article fieldset p input
 /*
   Mise en forme de la partie "Déjà connu?"
 */
 {
-  display:inline;
+  display: inline;
 }
 
 /*
   Fin du mileu de page
 */
 
-fieldset button
+
 
 
 /*
