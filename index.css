@@ -1,0 +1,73 @@
+article ul
+{
+    text-align: auto;
+
+}
+
+article ul li
+{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+article ul li p
+{
+	font-size: 0.7em;
+}
+
+/*
+  Description du produit : nom, prix, et bouton
+*/
+article ul li ul li:nth-child(2)
+{
+
+    border-style: solid;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(grey,black);
+}
+
+/*
+  Nom du Rubik's Cube
+*/
+article ul li ul li p:first-child
+{
+	color: YellowGreen;
+
+}
+
+/*
+  Prix du Rubik's Cube
+*/
+article ul li ul li p:nth-child(2)
+{
+	display: block;
+	color: yellow;
+	font-size: 0.8em;
+}
+
+/*
+  Bouton d'achat rapide
+*/
+article ul li ul li button
+{
+	background-color: Gold;
+	border-radius: 0.5em;
+	padding:0.5em;
+	color:black;
+	height: 20%;
+	text-align: right;
+}
+
+article ul li ul li button:hover
+{
+	color:Crimson;
+}
+
+article img
+{
+    height: 10em;
+    margin-right: 1em;
+    border-style: solid;
+    border-radius: 0.5em;
+}

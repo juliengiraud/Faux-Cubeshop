@@ -4,6 +4,19 @@ article form input
 */
 {
   display: block;
+
+}
+
+article fieldset
+/*
+  Gestion de l'espace entre les 2 partie du formulaire
+*/
+{
+	margin-top:3em;
+	border-style: dotted;
+	border-radius: 0.5em;
+	border-color:RoyalBlue;
+
 }
 
 article fieldset p input
@@ -12,4 +25,24 @@ article fieldset p input
 */
 {
   display: inline;
+}
+
+article legend
+/*
+  Ajout de bord sur les legend du formulaire
+*/
+{
+	background-color: SteelBlue;
+	border-radius:0.5em;
+	padding: 0.3em;
+}
+
+article button
+/*
+  Mise en forme des boutons du formulaire
+*/
+{
+  border-radius: 0.5em;
+  background-color: DarkCyan;
+  padding: 0.5em;
 }

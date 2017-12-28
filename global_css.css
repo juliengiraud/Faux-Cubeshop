@@ -37,6 +37,14 @@ header
     height: 3.3em;
 }
 
+h1
+/*
+  Style de la balise de premier titre
+*/
+{
+   color:DarkSlateGrey;
+}
+
 .menu
 /*
   laisse un espace a droite afin d'equilibrer avec l'espace de gauche sur les petites resolutions
