@@ -1,28 +1,102 @@
-article a
+article article
 {
-    text-decoration: none;
-    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-article ul li ul li
+article nav
 {
-    display: block;
-    text-align: center;
+    margin-left: 0;
+}
+
+article ul
+{
+    margin-left: 0;
 }
 
 article ul li
 {
     display: inline-block;
     margin-right: 1em;
+    margin-top: 1em;
+    margin-left: 0;
 }
 
-article ul
+article a
 {
-    text-align: auto;
+    text-decoration: none;
+    color: black;
+}
+
+article ul ul
+{
+    margin: 0;
+}
+
+article ul ul li
+{
+    width: 10em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+article ul li p
+{
+	font-size: 0.7em;
+}
+
+/*
+  Description du produit : nom, prix, et bouton
+*/
+article ul ul li:nth-child(2)
+{
+    border-style: solid;
+    border-radius: 0.5em;
+    background-image: linear-gradient(grey,black);
+    transform: translateY(-3em);
+}
+
+/*
+  Nom du Rubik's Cube
+*/
+article ul ul li p:first-child
+{
+	color: YellowGreen;
+}
+
+/*
+  Prix du Rubik's Cube
+*/
+article ul ul li p:nth-child(2)
+{
+	color: yellow;
+	font-size: 0.8em;
+}
+
+/*
+  Bouton d'achat rapide
+*/
+article ul ul li button
+{
+	background-color: Gold;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	color:black;
+    width: 100%;
+}
+
+article ul ul li button:hover
+{
+	color:Crimson;
 }
 
 article img
 {
     height: 10em;
     margin-right: 1em;
+    border-style: solid;
+    border-radius: 0.5em;
 }

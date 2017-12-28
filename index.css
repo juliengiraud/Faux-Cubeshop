@@ -31,6 +31,12 @@ article ul li
     margin-left: 0;
 }
 
+article a
+{
+    text-decoration: none;
+    color: black;
+}
+
 article ul ul
 {
     margin: 0;
