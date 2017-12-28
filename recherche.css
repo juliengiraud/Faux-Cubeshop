@@ -4,32 +4,25 @@ article a
     color: black;
 }
 
-article ul
+article ul li ul li
 {
-    text-align: justify;
+    display: block;
+    text-align: center;
 }
 
-article li
+article ul li
 {
     display: inline-block;
-    max-height: 10px;
-    margin-left: 1em;
     margin-right: 1em;
+}
+
+article ul
+{
+    text-align: auto;
 }
 
 article img
 {
     height: 10em;
-}
-
-article p
-{
-    font-size: 1em;
-    text-align: justify;
-}
-
-article nav p
-{
-    font-size: 20px;
-    text-align: center;
+    margin-right: 1em;
 }
