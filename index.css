@@ -1,10 +1,15 @@
+/*
+  Premier titre de chaque article
+*/
 article h1:first-child
 {
     color: black;
     font-size: 2em;
     text-align: center;
 }
-
+/*
+  Partie contenant les Rubik's Cube
+*/
 article article
 {
     margin-top: 2em;
@@ -13,16 +18,33 @@ article article
     margin-right: 0;
 }
 
+/*
+  Enlever les margins par défaut
+*/
 article nav
 {
     margin-left: 0;
 }
 
+/*
+  idem
+*/
 article ul
 {
     margin-left: 0;
 }
 
+/*
+  idem
+*/
+article ul ul
+{
+    margin: 0;
+}
+
+/*
+  Disposition de chaque Rubik's Cube
+*/
 article ul li
 {
     display: inline-block;
@@ -31,17 +53,18 @@ article ul li
     margin-left: 0;
 }
 
+/*
+  Personalisation de l'image de Rubik's Cube (qui est un lien)
+*/
 article a
 {
     text-decoration: none;
     color: black;
 }
 
-article ul ul
-{
-    margin: 0;
-}
-
+/*
+  Placement de chaque Rubik's Cube sur la page
+*/
 article ul ul li
 {
     width: 10em;
@@ -49,7 +72,9 @@ article ul ul li
     margin-bottom: 2em;
 }
 
-
+/*
+  Taille de l'ecriture du nom de chaque Rubik's Cube (standard)
+*/
 article ul li p
 {
 	font-size: 0.7em;
@@ -95,11 +120,17 @@ article ul ul li button
   width: 100%;
 }
 
+/*
+  Au survol du bouton, on utilise une couleur sombre
+*/
 article ul ul li button:hover
 {
 	color:Crimson;
 }
 
+/*
+  Mise en forme des images de Rubik's
+*/
 article img
 {
     height: 10em;

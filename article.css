@@ -1,3 +1,6 @@
+/*
+  Positionnement du contenu principal de la page
+*/
 article article
 {
     margin-top: 2em;
@@ -6,6 +9,9 @@ article article
     margin-right: 0;
 }
 
+/*
+  Personalisation de l'image du Rubik's Cube
+*/
 article img
 {
 	width: 20em;
@@ -15,32 +21,50 @@ article img
     border-radius: 0.5em;
 }
 
+/*
+  Position de l'image du Rubik's Cube
+*/
 article section
 {
 	margin: 2em;
 }
 
+/*
+  Position de la section contenu dans la balise aside
+*/
 article aside section
 {
 	margin-left: 22em;
 	padding-left: 2em;
 }
 
+/* 
+  En lever les amrgins par défault
+*/
 article aside section p
 {
 	margin-left: 0;
 }
 
+/* 
+  Centrer les titres de la section aside
+*/
 article section aside h2
 {
 	text-align: center;
 }
 
+/*
+  Format de la partie avec les informations principales du Rubik's Cube
+*/
 article section aside 
 {
 	height: 20em;
 }
 
+/*
+  Bouton d'ajout rapide
+*/
 article section aside section button
 {
 	background-color: Gold;
@@ -50,6 +74,9 @@ article section aside section button
 	color:black;
 }
 
+/*
+  Partie présentant le Rubik's Cube avec ses informations principales
+*/
 article aside p
 {
 	margin-left: 3em;
@@ -57,11 +84,9 @@ article aside p
 	text-align: justify;
 }
 
-article iframe
-{
-	margin-left: 3em;
-}
-
+/*
+  Partie commentaire dédié aux utlisateurs
+*/
 article textarea
 {
 	width: 40em;
@@ -73,7 +98,7 @@ article textarea
 
 article button
 /*
-  Mise en forme des boutons du formulaire
+  Personalisation des boutons du formulaire
 */
 {
   	border-radius: 0.5em;
@@ -84,7 +109,7 @@ article button
 
 article div
 /*
-  Mise en forme des boutons du formulaire
+  Position des boutons du formulaire
 */
 {
   	margin-left: 8em;

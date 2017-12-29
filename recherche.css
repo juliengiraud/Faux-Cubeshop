@@ -1,3 +1,6 @@
+/*
+  Positionnement du contenu principal
+*/
 article article
 {
     margin-top: 2em;
@@ -6,16 +9,25 @@ article article
     margin-right: 0;
 }
 
+/*
+  Enleve es margins par défaut
+*/
 article nav
 {
     margin-left: 0;
 }
 
+/*
+  idem
+*/
 article ul
 {
     margin-left: 0;
 }
 
+/*
+  Position de chaque produit et sa description
+*/
 article ul li
 {
     display: inline-block;
@@ -24,17 +36,28 @@ article ul li
     margin-left: 0;
 }
 
+/*
+  Personnalisation de l'image du Rubik's Cube (qui est un lien)
+*/
 article a
 {
     text-decoration: none;
     color: black;
 }
 
+/*
+  Enleve les margins par défaut
+*/
 article ul ul
 {
     margin: 0;
 }
 
+/*
+  Centrer chaque produit de la page
+  leur donner une taille moyenne
+  les espacer l'un par rapport aux autres (les produits)
+*/
 article ul ul li
 {
     width: 10em;
@@ -42,7 +65,9 @@ article ul ul li
     margin-bottom: 2em;
 }
 
-
+/*
+  Taille des informations écrites
+*/
 article ul li p
 {
 	font-size: 0.7em;
@@ -88,11 +113,18 @@ article ul ul li button
     width: 100%;
 }
 
+/*
+  Couleur sombre au survol du bouton avec la souris
+  Eviter le blanc car non voyant sur le jaune Gold
+*/
 article ul ul li button:hover
 {
 	color:Crimson;
 }
 
+/*
+  Personnalisation de chaque image de Rubik's Cube
+*/
 article img
 {
     height: 10em;

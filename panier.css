@@ -1,6 +1,6 @@
 article form input
 /*
-  Mise en forme de la partie "Vos coordonnées"
+ Disposition en block des critères propres à l'utilisateur
 */
 {
   display: block;
@@ -21,7 +21,7 @@ article fieldset
 
 article fieldset p input
 /*
-  Mise en forme de la partie "Déjà connu?"
+  Mettre sur une seule ligne la question ainsi que les boutons "oui ou "non"
 */
 {
   display: inline;
@@ -39,7 +39,7 @@ article legend
 
 article button
 /*
-  Mise en forme des boutons du formulaire
+  Personalisation des boutons du formulaire
 */
 {
   border-radius: 0.5em;

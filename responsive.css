@@ -1,7 +1,7 @@
 body
 /*
   fond degrade meme avec le scroll
-  affiche le scroll horizontal en cas de redimentionnement
+  affiche le scroll horizontal en cas de redimensionnement
   enleve la marge autour de l'ecran
 */
 {
@@ -62,7 +62,7 @@ h1
 
 .menu li
 /*
-  affiche le nom des onglets sur une seule ligne
+  affiche le nom des onglets, un par ligne
 */
 {
     display: block;
@@ -71,7 +71,7 @@ h1
 
 .menu li input
 /*
- mise en forme de l'onglet de recherche
+  Personnalisation de l'onglet de recherche, pour un écran de -700px
 */ 
 {
     width: 5em;
@@ -83,9 +83,11 @@ h1
     border-radius: 0.5em;
     border: none;
     border-width: 1px;
+    transition: 0.5s;
 }
 /*
-  Au survol, la barre de recherche s'agrandit légèrement
+  Au survol, la barre de recherche s'agrandit légèrement, 
+  car assez petite pour les ecrans autres que ceux des pc
 */
 .menu li input:hover
 {
@@ -95,7 +97,7 @@ h1
 }
 button
 /*
-  mise en forme du bouton de recherche
+  Personnalisation bouton de recherche
 */
 {
     background-color: transparent;
@@ -115,7 +117,7 @@ button:hover
 
 .menu li a
 /*
- mise en forme de l'écriture du menu 
+  Police de l'écriture du menu 
 */
 {
     font-family: Times;
@@ -124,7 +126,7 @@ button:hover
 
 .menu li button
 /*
- mise en forme du bouton  de l'onglet de recherche
+  Police et taille de l'ecriture de l'onglet de recherche
 */
 {
     font-family: arial;
@@ -182,11 +184,11 @@ button:hover
 .sous-menu li
 /*
   donne au sous-menu la meme couleur de fond que la barre d'onglets
-  met les elements du sous-menu les uns en dessous des autres
 */
 {
     background-color: rgba(10, 10, 10, 0.4);
     display: inline-block;
+
 }
 
 .menu a:hover
